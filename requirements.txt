@@ -1,0 +1,42 @@
+# ══════════════════════════════════════════════════════════════
+# requirements.txt
+# Georreferenciación de criaderos de mosquitos a partir de video de dron
+# Consultoría CRISP 2026 — Maestría en Cómputo Estadístico — CIMAT
+# ══════════════════════════════════════════════════════════════
+# Instalación:
+#   conda create -n mosquitos python=3.10
+#   conda activate mosquitos
+#   pip install -r requirements.txt
+#
+# Nota: numpy<2.0 es requerido por compatibilidad con PyTorch/ultralytics
+# ══════════════════════════════════════════════════════════════
+
+# ── Detección (YOLOv12) ───────────────────────────────────────
+ultralytics>=8.0.0
+
+# ── Procesamiento de video e imagen ──────────────────────────
+opencv-python>=4.8.0
+
+# ── Operaciones numéricas ─────────────────────────────────────
+numpy>=1.24.0,<2.0.0
+
+# ── Manejo de datos ───────────────────────────────────────────
+pandas>=2.0.0
+
+# ── Georreferenciación y exportación GeoPackage ───────────────
+geopandas>=0.14.0
+shapely>=2.0.0
+fiona>=1.9.0
+
+# ── Visualización (gráfica de sincronización) ─────────────────
+matplotlib>=3.7.0
+
+# ── PyTorch (instalación separada recomendada según CUDA) ─────
+# Con GPU NVIDIA (CUDA 11.8):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+#
+# Con GPU NVIDIA (CUDA 12.1):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+#
+# Sin GPU (CPU):
+#   pip install torch torchvision

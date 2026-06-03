@@ -1,0 +1,17 @@
+# Archivos de texto con las rutas de imágenes
+train: /media/disk2tb/DosT/javier/MBG-V2/train_60_v9.txt
+val: /media/disk2tb/DosT/javier/MBG-V2/valid_20_v9.txt
+test: /media/disk2tb/DosT/javier/MBG-V2/test_20_v9.txt
+
+# Número de clases
+nc: 5  
+
+# Nombres de las clases
+names:
+  0: charco
+  1: cubeta
+  2: llanta
+  3: tinaco
+  4: maceta
+
+ 
