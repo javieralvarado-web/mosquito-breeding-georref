@@ -309,7 +309,10 @@ Centro Regional de Investigación en Salud Pública (CRISP) — 2026
 
 ## Referencia del Dataset
 
-Dufourq, E., et al. (2022). *Automatic detection of Aedes aegypti breeding
-grounds based on deep networks with spatio-temporal consistency.*
-MBG-V2 Dataset. Zenodo.
-https://doi.org/10.5281/zenodo.7504421
+Passos, W. L., Araujo, G. M., Haque, U., Cruz-Roldán, F., & Netto, S. L. (2023).
+*IEEE ICIP 2023 Challenge on the Automatic Detection of Mosquito Breeding Grounds.*
+2023 IEEE International Conference on Image Processing Challenges and Workshops (ICIPCW),
+pp. 3624–3628. https://doi.org/10.1109/ICIPC59416.2023.10328377
+
+**Dataset MBG-V2:**
+https://www02.smt.ufrj.br/~tvdigital/database/mosquito/page_02.html
