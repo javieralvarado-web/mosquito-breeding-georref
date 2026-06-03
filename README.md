@@ -102,7 +102,7 @@ El modelo fue entrenado con los siguientes parámetros:
 **Script:** `00_entrenamiento/valid_yolov12n_v52.py`
 
 Evaluación del modelo entrenado sobre el conjunto de validación.
-Genera curvas de precisión-recuperación por clase y matriz de confusión.
+Genera curvas de Precision-Recall por clase y matriz de confusión.
 
 **Resultados sobre el conjunto de validación:**
 
