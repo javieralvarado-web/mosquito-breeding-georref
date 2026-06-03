@@ -12,7 +12,7 @@ El proyecto fue desarrollado como parte de la **Consultoría de Estancia 2026** 
 
 ## Objetivo del Proyecto
 
-Desarrollar un pipeline automatizado para la detección y georreferenciación de criaderos potenciales de mosquitos a partir de videos capturados con dron, que integre:
+Desarrollar una metodología para georreferenciar criaderos potenciales de mosquitos \textit{Aedes aegypti} detectados en videos capturados mediante vehículos aéreos no tripulados, integrando información visual y datos de telemetría del vuelo para estimar la ubicación geográfica de los objetos detectados y generar mapas espaciales que apoyen actividades de vigilancia entomológica y control vectorial, que integre:
 
 - Detección de objetos con YOLOv12-nano sobre video 4K.
 - Sincronización de la telemetría GPS del dron con los frames del video.
